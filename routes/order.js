@@ -3,14 +3,14 @@ const router = express.Router();
 
 router.get('/', (req, res, next) => {
   res.status(200).send({
-    mensagem: 'Get todos os Boletos'
+    mensagem: 'Get todos Pedidos!'
   });
 })
-router.get('/:idTicket', (req, res, next) => {
-  const id = req.params.idTicket
+router.get('/:idOrder', (req, res, next) => {
+  const id = req.params.idOrder
   if (id ==='especial') {
     res.status(200).send({
-      mensagem: 'Get Boletos pelo id!',
+      mensagem: 'Get pedido pelo id!',
       id: id
     });
   } else {
