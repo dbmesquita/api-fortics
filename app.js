@@ -1,11 +1,9 @@
 const express = require ( 'express');
 const app = express();
 
+const rotaTicket = require('./routes/ticket');
+app.use('/ticket', rotaTicket);
 
-app.use((req, res, next) => {
-        res.status(200).send({
-          mensagem: 'deu certo!'
-        });
-});
+
 
 module.exports = app;
