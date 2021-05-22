@@ -2,14 +2,32 @@
   "cSpell.words": [
     "Boletos",
     "CONNECTIONSTRING",
+    "CONNECTSTRING",
     "codcli",
     "codprod",
     "codusur",
     "conect",
+    "fortics",
     "fribel",
     "oracledb",
     "pcclient",
     "pcprodut",
+    "pcusuari",
     "wint"
+  ],
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "fortics-db",
+      "database": "fortics",
+      "username": "fribel",
+      "password": "fribel"
+    }
   ]
 }
