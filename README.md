@@ -1,6 +1,6 @@
 # api-fortics
 
-API para automação de serviços que serão consumidos pela aplicação Fortics
+## API para automação de serviços que serão consumidos pela aplicação Fortics
 
 ### Install dependencies
 
