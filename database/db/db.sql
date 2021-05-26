@@ -46,7 +46,7 @@ SET collation_connection = utf8_general_ci;
 
 --
 -- Dumping data for table `tickets`
---
+
 
 LOCK TABLES `tickets` WRITE;
 /*!40000 ALTER TABLE `tickets` DISABLE KEYS */;

@@ -23,6 +23,9 @@ router.get('/:cgc', (req, res, next) =>{
           and cgc = ?;`,
           [req.params.cgc],
           (error, result, fields) =>{
+
+            conn.release();
+
             if (error) { return res.status(500).send({ error: error}) }
             
             if (result.length ==0){
